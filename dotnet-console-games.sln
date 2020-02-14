@@ -29,6 +29,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minesweeper", "Projects\Min
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beep Pad", "Projects\Beep Pad\Beep Pad.csproj", "{BDFDD453-E6A3-4056-A484-897726053ACA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{73EE7D9D-9CE1-4C2D-9E5B-56AC9BF3886D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tic Tac Toe", "src\Tic Tac Toe\Tic Tac Toe.csproj", "{CEA9E6CC-32C5-44A7-A51E-A4ED5B9480AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,11 +91,18 @@ Global
 		{BDFDD453-E6A3-4056-A484-897726053ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDFDD453-E6A3-4056-A484-897726053ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDFDD453-E6A3-4056-A484-897726053ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA9E6CC-32C5-44A7-A51E-A4ED5B9480AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA9E6CC-32C5-44A7-A51E-A4ED5B9480AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA9E6CC-32C5-44A7-A51E-A4ED5B9480AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA9E6CC-32C5-44A7-A51E-A4ED5B9480AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC4CAF97-A0CE-4999-8062-EC511A41764F}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEA9E6CC-32C5-44A7-A51E-A4ED5B9480AA} = {73EE7D9D-9CE1-4C2D-9E5B-56AC9BF3886D}
 	EndGlobalSection
 EndGlobal
